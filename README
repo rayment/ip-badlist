@@ -1,0 +1,28 @@
+This repository contains a list of IP addresses that have attempted to connect
+to my personal server through the SSH port or other authenticated requests and
+failed miserably.
+
+The file `iplist.txt' contains the IP addresses, sorted numerically and
+contains exactly one address per line.
+
+The file `ipretract.txt' contains all IP addresses that have been appealed
+
+The file `iploc.txt' contains a list of countries corresponding to each IP
+address. Locations are mapped one to one. That is, the country stated on line 5
+of `iploc.txt' corresponds to the IP address stated on line 5 of `iplist.txt'.
+
+Some people may argue that banning an IP address is counter-intuitive because
+they may be dynamic and shared around. If you are one of these people, this
+repository is not for you.
+
+If you do not care like myself, you will find this list useful. You can modify
+or use it in any way you wish such as adding it into a database such as
+fail2ban or adding it to your `/etc/hosts' file.
+
+If you wish to have your IP removed from `ipretract.txt', your request will be
+denied.
+
+If your IP appears in `iplist.txt' and you wish to have it removed, please
+appeal by opening an Issue and you will be judged accordingly. If your IP is
+removed from `iplist.txt', it will be moved into `ipretract.txt'.
+
